@@ -14,6 +14,6 @@ public class Motorcycle : Vehicle
 
     public override void DriveVirtual()
     {
-        Console.WriteLine($" This{GetType().Name} is a  {GetType().BaseType.Name} is virtually in drive.");
+        Console.WriteLine($" This {GetType().Name} is virtually in drive.");
     }
 }

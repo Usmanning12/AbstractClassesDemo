@@ -44,8 +44,8 @@ namespace ConsoleUI
             var focus = new Car() { HasTrunk = true, Make = "Ford", Model = "Focus", Year = 2025 };
             var motorcycle = new Motorcycle() {HasSideCart = true, Make = "V-Star", Model = "Yahama", Year = 2016 };
             
-            var Sedan = new Car() {Make = "Toyota", Model = "Sedan", Year = 2016 };
-            var Sport = new Car() {Make = "Sport", Model = "Sport", Year = 2016 };
+            var sedan = new Car() {Make = "Toyota", Model = "Sedan", Year = 2016 };
+            var sport = new Car() {Make = "Chevy", Model = "Corvette", Year = 2016 };
 
              
             
@@ -54,8 +54,8 @@ namespace ConsoleUI
              */
              vehicles.Add(focus);
              vehicles.Add(motorcycle);
-             vehicles.Add(Sedan);
-             vehicles.Add(Sport);
+             vehicles.Add(sedan);
+             vehicles.Add(sport);
 
              foreach (var veh in vehicles)
              {
